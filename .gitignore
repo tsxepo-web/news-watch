@@ -1,0 +1,36 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# .NET Backend
+bin/
+obj/
+*.user
+*.suo
+appsettings.Development.json
+appsettings.json
+*.log
+.vs/
+
+# Angular Frontend
+dist/
+node_modules/
+src/environments/*.ts
+.angular/cache/
+coverage/
+npm-debug.log
+
+# Common
+.env
+.env.*
+.vscode/
+.idea/
